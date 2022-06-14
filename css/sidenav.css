@@ -6,3 +6,24 @@
   background-color: white;
   width: 80px;
 }
+.side-nav-link{
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin-bottom: 5px;
+  align-items: center;
+}
+.side-nav-link .nav-link{
+  height: 30px;
+  width: 30px;
+  padding-top: 5px;
+}
+.side-nav-link:hover{
+  background-color: rgba(224, 224, 224, 0.603);
+  opacity: 1;
+}
+.side-nav-link span{
+  font-size: 12px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
